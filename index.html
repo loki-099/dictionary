@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&family=Inter:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
     <title>Dictionary</title>
   
-  <link rel="stylesheet" href="/assets/index-4dfb7468.css">
+  <link rel="stylesheet" href="/dictionary/assets/index-4dfb7468.css">
 </head>
 <body class="transition-all duration-150 bg-light-100 dark:bg-dark-400">
     <div class="w-[87.2%] max-w-[737px] mx-auto mt-6 md:mt-10">
@@ -18,14 +18,14 @@
         <!-- HEADINGS -->
         <div class="w-full flex items-center justify-between">
             <span>
-                <img class="w-7" src="/assets/logo-1ad79f67.svg">
+                <img class="w-7" src="/dictionary/assets/logo-1ad79f67.svg">
             </span>
             <div class="flex items-center justify-between space-x-4">
                 <div class="w-[98px] md:w-[120px] flex items-center justify-between relative">
                     <label class="w-full flex items-center justify-between">
                         <input type="checkbox" class="opacity-0 w-0 h-0" onchange="displaySel()">
                         <p class="text-bodySm md:text-bodyMd font-bold text-dark-200 cursor-pointer dark:text-white" for="sel" id="dispFont">Sans Serif</p>
-                        <img class="cursor-pointer" src="/assets/icon-arrow-down-f0eae304.svg">
+                        <img class="cursor-pointer" src="/dictionary/assets/icon-arrow-down-f0eae304.svg">
                     </label>
                     <div class="transition-all ease-in duration-150 w-[130px] md:w-[183px] bg-light-100 dark:bg-dark-400 absolute top-10 right-0 px-4 py-4 shadow-base dark:shadow-dark rounded-[16px] z-10 hidden  opacity-0" id="sel">
                         <ul class="space-y-4 text-bodySm md:text-bodyMd font-bold dark:text-light-100">
@@ -52,7 +52,7 @@
         <label class="relative block mt-6 md:mt-9">
             <input type="text" class="w-full transition-all duration-150 bg-light-200 dark:bg-dark-300 font-bold text-[16px] text-dark-300 dark:text-light-100 py-3 rounded-2xl px-6 placeholder:text-dark-200/25 dark:placeholder:text-light-100/25 outline-none border border-transparent focus:border-acc-1" placeholder="Search for any word..." id="searchArea">
             <span class="absolute right-0 inset-y-0 pr-6 flex items-center">
-                <img src="/assets/icon-search-b502bcbe.svg" class="cursor-pointer" onclick="search()">
+                <img src="/dictionary/assets/icon-search-b502bcbe.svg" class="cursor-pointer" onclick="search()">
             </span>
             <p class="absolute left-0 -bottom-5 text-[14px] text-acc-2" id="error"></p>
         </label>
@@ -65,7 +65,7 @@
                     <p class="text-bodyMd text-acc-1" id="pronunciation">/ki-bord/</p>
                 </div>
                 <span>
-                    <img src="/assets/icon-play-1508c789.svg" class="cursor-pointer w-12" onclick="playAudio()">
+                    <img src="/dictionary/assets/icon-play-1508c789.svg" class="cursor-pointer w-12" onclick="playAudio()">
                 </span>
             </div>
 
@@ -105,7 +105,7 @@
             <hr class="border-0 h-px bg-light-300 dark:bg-dark-100 mt-10">
             <div class="mt-6 pb-8">
                 <p class="text-bodySm text-light-400 underline underline-offset-2">Source</p>
-                <a href="#" class="text-dark-200 underline underline-offset-2 inline dark:text-light-100" id="source" target="_blank"><span id="source-link">https://wiki.com/word/link</span><img src="./assets/icon-new-window-70a67aa8.svg" class="inline ml-1"></a>
+                <a href="#" class="text-dark-200 underline underline-offset-2 inline dark:text-light-100" id="source" target="_blank"><span id="source-link">https://wiki.com/word/link</span><img src="/dictionary/assets/icon-new-window-70a67aa8.svg" class="inline ml-1"></a>
                 
             </div>
         </section>
@@ -119,6 +119,6 @@
 
     </div>    
 
-    <script src="/assets/script.js"></script>
+    <script src="/dictionary/assets/script.js"></script>
 </body>
 </html>
